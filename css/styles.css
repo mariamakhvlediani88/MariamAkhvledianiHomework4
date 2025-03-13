@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+header {
+  padding: 24.5px 116px;
+}
+nav,
+.nav-list,
+.list-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav {
+  margin-left: 195px;
+  margin-right: 195px;
+}
+
+.book-now-btn,
+.logo {
+  vertical-align: middle;
+}
+
+.list-item {
+  margin-left: 50px;
+}
+
+.list-item:first-child {
+  margin-left: 0px;
+}
+
+.book-now-btn {
+  padding: 13px 50px;
+  background-color: #ff5403;
+  color: #fff;
+}
+
+.main-section {
+  width: 100%;
+  height: 722px;
+  background-image: url("../images/banner-main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+.title {
+  font-size: 96px;
+  font-weight: 700px;
+  letter-spacing: 7px;
+  line-height: 115px;
+  color: #fff;
+}
+.description {
+  font-size: 20px;
+  font-weight: 400px;
+  margin: 5px 0px 50px 0px;
+}
+.main-text {
+  width: 687px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.discover-now-btn {
+  padding: 22px 64.5;
+  background-color: #ff5403;
+  color: #fff;
+  width: 250px;
+  height: 66px;
+  font-weight: 600px;
+}
+
+.places {
+  text-align: center;
+  margin: 157px auto;
+  width: 1312px;
+}
+.places-title {
+  font-size: 36px;
+  font-weight: 600px;
+  color: #041562;
+  margin-top: 157px;
+}
+
+.places-desc {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #626262;
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+.image-1-wrapper {
+  display: inline-block;
+  position: relative;
+  margin-left: 22px;
+  margin-bottom: 22px;
+}
+
+.margin-1-wrapper:first-child {
+  margin-left: 0px;
+}
+.image-desc-1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 28px;
+  color: aqua;
+}
+.image-desc-2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  color: aquamarine;
+}
+.image-desc-3 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 28px;
+  color: violet;
+}
+.image-desc-4 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 28px;
+  color: yellow;
+}
+.discover-more-btn {
+  padding: 22px 62px;
+  color: #fff;
+  background-color: #ff5403;
+}
+
+.hotels {
+  text-align: center;
+  margin: 132px auto;
+}
+.hotels-title {
+  font-size: 36px;
+  font-weight: 600px;
+  color: #041562;
+}
+.hotels-desc {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #626262;
+  margin-top: 20px;
+}
+.hotel-name {
+  font-size: 24px;
+}
+.star,
+.reviews-quantity {
+  vertical-align: middle;
+}
+.hotels-card {
+  display: inline-block;
+  margin-top: 75px;
+  margin-left: 50px;
+}
+.hotel-cards:first-child {
+  margin-left: 0px;
+}
