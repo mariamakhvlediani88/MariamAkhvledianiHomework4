@@ -161,6 +161,8 @@ nav {
 .star,
 .reviews-quantity {
   vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .hotels-card {
   display: inline-block;
@@ -169,4 +171,91 @@ nav {
 }
 .hotel-cards:first-child {
   margin-left: 0px;
+}
+.location,
+.price {
+  font-size: 18px;
+  font-weight: 300px;
+}
+.location {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 156px;
+  background-color: #19224d;
+  text-align: center;
+  background-size: cover;
+}
+
+.footer-logo-div {
+  height: 500px;
+  display: inline-block;
+  margin-left: 100px;
+  display: inline-block;
+}
+.footer-logo {
+  margin-top: 150px;
+  margin-bottom: 27.24px;
+  margin-left: 202px;
+  color: #fff;
+  display: inline;
+}
+.footer-logo-text {
+  margin-left: 136px;
+  display: block;
+}
+.dest-div {
+  display: inline-block;
+  color: #fff;
+  margin-left: 158px;
+  margin-right: 158px;
+  margin-top: 108px;
+}
+
+.destinations {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400px;
+  text-align: left;
+}
+
+.destinations:first-child {
+  margin-top: 30px;
+}
+
+.desc-dest {
+  margin-bottom: 30px;
+}
+
+.contact-div {
+  color: #fff;
+  display: inline-block;
+  text-align: left;
+}
+
+.contact-us {
+  margin-top: 108px;
+  margin-bottom: 30px;
+}
+
+.phone {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.e-mail {
+  margin-bottom: 35px;
+}
+.social-media {
+  color: #ff5403;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.fixed-icon {
+  position: fixed;
+  bottom: 010px;
+  right: 10px;
+  width: 70px;
+  height: 70px;
 }
